@@ -1,0 +1,126 @@
+/* *{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+} */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+}
+
+h1, h2, h3  {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+
+.wrapper {
+    width: 90%;
+    max-width: 100%;
+    margin: auto;
+    /* position: sticky; */
+}
+
+.logo a {
+    display: flex;
+    justify-content: space-between;
+    font-size: 60px;
+    font-weight: bolder;
+    float: left;
+    font-family: 'Resident Evil', sans-serif;
+    color: rgba(223, 0, 0, 1);
+    width: max-content;
+    position: sticky;
+    margin-top: 10px;
+    text-decoration: none;
+    /* background-color: aquamarine; */
+}
+
+.logo a span {
+    color: white;
+}
+
+.menu {
+    /* float: right; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-image: url('https://wallpapercave.com/wp/wp7209533.jpg'); */
+    background-position: center;
+}
+
+.menu h1{
+    float: left;
+    
+}
+
+nav {
+    font-size: 15px;
+    width: 100%;
+    margin: left;
+    display: flex;
+    line-height: 100px;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: black;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: antiquewhite; */
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a{
+    color: white;
+    font-weight: 100; 
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+    float: left;
+    margin: auto;
+}
+
+nav ul li :hover{
+    color: rgba(223, 0, 0, 1);
+}
+
+
+/* .wrapper home{
+    align-items: flex-start;
+} */
+
+.btn {
+    /* float: right; */
+    background-color: white;
+    color: black;
+    display: inline-flex;
+    margin-top: 5px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+    /* align-items: flex-end;
+    justify-content: flex-end; */
+}
+
+.btn :hover{
+    background-color: rgba(223, 0, 0, 1);
+}
+
+
+news h1{
+    font-size: larger;
+    font-family: 'Resident Evil', sans-serif;;
+}
